@@ -35,11 +35,25 @@ another line
 #     count=$(( count+1 ))
 # done
 
-for i in {0..20};
-do
-    if (($i > 11))
-        then 
-            break
-        fi
-    echo $i
-done
+# for i in {0..20};
+# do
+#     if (($i > 11))
+#         then 
+#             break
+#         fi
+#     echo $i
+# done
+
+# args=("$@")
+# echo ${args[0]}
+
+# ls -al > file.txt
+
+# input="./file.txt"
+# while read -r line
+# do
+#   echo "$line"
+# done 
+MESSAGE="SECRET"
+export MESSAGE
+./exported_value.sh
